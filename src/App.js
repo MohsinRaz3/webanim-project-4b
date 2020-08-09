@@ -4,6 +4,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 
 import { Header } from "./components/Header/Header";
 import { NavBar } from "./components/Navbar/Navbar";
+import {CarouselCom} from './components/Carousel/CarouselCom';
 import { Footerr } from "./components/Footer/Footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <CssBaseline />
         <NavBar />
         <Header />
+        <CarouselCom/>
       </section>
       <section>{/* <Footerr /> */}</section>
     </div>
