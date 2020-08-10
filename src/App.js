@@ -6,6 +6,7 @@ import { Header } from "./components/Header/Header";
 import { NavBar } from "./components/Navbar/Navbar";
 import {CarouselCom} from './components/Carousel/CarouselCom';
 import { Footerr } from "./components/Footer/Footer";
+import {BackgroundVideo} from './components/Header/BackgroundVideo';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <section>
         <CssBaseline />
         <NavBar />
+        <BackgroundVideo/>
         <Header />
         <CarouselCom/>
       </section>

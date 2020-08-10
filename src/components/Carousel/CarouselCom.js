@@ -1,19 +1,22 @@
 import React from 'react'
+import {carouselone} from './../Graphics/carouselone.jpg';
 import {Cards } from './Cards';
 import Carousel from 'react-elastic-carousel';
 
 
 export const CarouselCom = () => {
 const breakPoints = [
-    {width: 1, itemToShow: 1},
-    {width: 500, itemToShow: 2},
-    {width: 768, itemToShow: 3},
-    {width: 1500, itemToShow: 4}]
+    {width: 1, itemsToShow: 1},
+    {width: 500, itemsToShow: 2},
+    {width: 768, itemsToShow: 3},
+    {width: 1500, itemsToShow: 4}];
+
+    
 
     return (
         <div>
-            <Carousel breakpoints={breakPoints}>
-                <Cards/>
+            <Carousel breakPoints={breakPoints}>
+                <Cards style={{ backgroundImage: `url(${carouselone})` }}/>
                 <Cards/>
                 <Cards/>
                 <Cards/>
