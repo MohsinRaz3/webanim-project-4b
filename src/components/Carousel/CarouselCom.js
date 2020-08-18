@@ -7,9 +7,9 @@ import Carousel from 'react-elastic-carousel';
 export const CarouselCom = () => {
 const breakPoints = [
     {width: 1, itemsToShow: 1},
-    {width: 500, itemsToShow: 2},
-    {width: 768, itemsToShow: 3},
-    {width: 1500, itemsToShow: 4}];
+    {width: 500, itemsToShow: 1},
+    {width: 768, itemsToShow: 1},
+    {width: 1500, itemsToShow: 1}];
 
     
 

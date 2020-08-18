@@ -1,0 +1,49 @@
+.container{
+
+    color: white;
+    background-color: #191C3C;
+    padding-top: 3cm;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    width: 20%;
+    margin: 70px 0px;
+}
+.col1{
+
+    width: 40%;
+    margin: 70px 0px;
+}
+.textos{
+    font-size: large;
+    width: 50%;
+}
+.textos2{
+    font-size: 40px;
+}
+.list-unstyled li{
+
+    margin: 30px;
+    list-style: none;
+
+}
+.list-unstyled li a{
+    color: white;
+    text-decoration: none;
+}
+.main-footer{
+    background-color: #191C3C;
+    color: white;
+}
+.col-sm{
+    margin-bottom: 0;
+    display: flex;
+
+}
+.col-sm li{
+    margin: 0px 10px;
+}

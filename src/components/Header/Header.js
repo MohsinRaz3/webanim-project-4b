@@ -32,7 +32,7 @@ export function Header() {
             HI, WE'RE JUNTO
           </Typography>
 
-          <Typography variant="h4" text-align="left" texs>
+          <Typography variant="h4" text-align="left" >
             &nbsp; &nbsp; &nbsp; We're here to help you &nbsp; &nbsp; &nbsp;
           </Typography>
           <Typography variant="h4" text-align="left">
